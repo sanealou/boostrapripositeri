@@ -1,0 +1,126 @@
+/* Keyword values 
+background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;
+*/
+.background1 {
+  background-image: url(Exclusion\ 5.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 2;
+}
+
+.rond {
+  background-image: url(Intersection9.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: top left;
+  z-index: 3;
+  height: 200px;
+}
+.rond2 {
+  background-image: url(Ellipse410.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 200px;
+}
+
+.rond3 {
+  background-image: url(Designelemen.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: cover;
+  height: 200px;
+  z-index: 2;
+  position: relative;
+  top: 260px;
+  left: 70px;
+}
+input[type='text'] {
+  background-image: url('plus.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 25px;
+  font-weight: 600;
+}
+.elipse {
+  background-image: url(Ellipse412.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: right top 20%;
+  z-index: 1;
+}
+
+.designe {
+  background-image: url(Design\ elementCircles22.png);
+  background-repeat: no-repeat;
+  background-size: 40% 700px;
+  background-position: top left;
+  z-index: 1;
+}
+.pointier {
+  background-image: url(designn.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center bottom;
+  z-index: 1;
+  position: relative;
+  left: 100px;
+}
+.eclipsss {
+  background-image: url(Ellipse413.png);
+  background-repeat: no-repeat;
+  background-size: 17%;
+  background-position: center right;
+  z-index: 1;
+  position: relative;
+  left: 10px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: rgb(42, 42, 74);
+}
+div.card1 {
+  position: relative;
+  bottom: 140%;
+  right: 60%;
+}
+div.card2 {
+  position: relative;
+  bottom: 160%;
+  right: 60%;
+}
+div.card3 {
+  position: relative;
+  z-index: 2;
+  right: 40%;
+  width: 600px;
+  height: 500px;
+}
+input {
+  background-color: rgba(222, 221, 221, 0);
+}
+form {
+  background-color: rgba(244, 242, 242, 0.971);
+  box-shadow: 10px black;
+  width: 300px;
+}
+
+@media screen and (max-width: 991px) {
+  .background2 img {
+    font-size: 50%;
+    width: 105%;
+    z-index: 2;
+  }
+  div.card3 {
+    position: relative;
+    z-index: 2;
+    left: 1%;
+    top: 70%;
+  }
+}

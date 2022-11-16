@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../kalikaboostrap"
+		},
+		{
+			"path": "../E-commerceTache"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KalikaFigma"
+	}
+}
